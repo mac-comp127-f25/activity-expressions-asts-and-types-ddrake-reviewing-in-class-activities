@@ -74,10 +74,10 @@ public class ExpressionExperiments {
         System.out.println("pretzel=" + pretzel);
 
 
-        // System.out.print("Example 19: ");
-        // pretzel = 0;
-        // pretzel = ++pretzel;
-        // System.out.println("pretzel=" + pretzel);
+        System.out.print("Example 19: ");
+        pretzel = 0;
+        pretzel = ++pretzel;
+        System.out.println("pretzel=" + pretzel);
 
         System.out.println("Done!");
         System.out.println();
