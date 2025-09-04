@@ -17,16 +17,17 @@ public class ExpressionExperiments {
         System.out.println("────── Associativity ──────");
 
         // System.out.print("Example 5: ");
-        // System.out.println(1000 - 100 - 10 - 1);
+        System.out.println(1000 - 100 - 10 - 1);
 
         // System.out.print("Example 6: ");
         // TODO: replace this line with your solution
 
         // System.out.print("Example 7: ");
-        // System.out.println(__ + __ + " is the sum of our ages");  // TODO: fill in your actual ages
+        System.out.println(5 + 3 + " is the sum of our ages");  // TODO: fill in your actual ages
 
         // System.out.print("Example 8: ");
-        // System.out.println("The sum of our ages is " + __ + __);  // TODO: fill in your actual ages
+        System.out.println("The sum of our ages is " + (5 + 3)
+        );  // TODO: fill in your actual ages
 
         // System.out.print("Example 9: ");
         // TODO: replace this line with your solution
@@ -55,27 +56,28 @@ public class ExpressionExperiments {
 
         System.out.println("────── Pre- and Post-increment ──────");
 
-        // int salad = 0, pretzel = 0;
+        int salad = 0, pretzel = 0;
 
-        // System.out.print("Example 16: ");
-        // pretzel = ++salad;
-        // System.out.println("salad=" + salad + "  pretzel=" + pretzel);
+        System.out.print("Example 16: ");
+        pretzel = ++salad;
+        System.out.println("salad=" + salad + "  pretzel=" + pretzel);
 
-        // System.out.print("Example 17: ");
-        // salad = 0;
-        // pretzel = 0;
-        // pretzel = salad++;
-        // System.out.println("salad=" + salad + "  pretzel=" + pretzel);
+        System.out.print("Example 17: ");
+        salad = 0;
+        pretzel = 0;
+        pretzel = salad++;
+        System.out.println("salad=" + salad + "  pretzel=" + pretzel);
 
-        // System.out.print("Example 18: ");
-        // pretzel = 0;
-        // pretzel = pretzel++;
-        // System.out.println("pretzel=" + pretzel);
+        System.out.print("Example 18: ");
+        pretzel = 0;
+        pretzel = pretzel++;
+        System.out.println("pretzel=" + pretzel);
 
-        // System.out.print("Example 19: ");
-        // pretzel = 0;
-        // pretzel = ++pretzel;
-        // System.out.println("pretzel=" + pretzel);
+
+        System.out.print("Example 19: ");
+        pretzel = 0;
+        pretzel = ++pretzel;
+        System.out.println("pretzel=" + pretzel);
 
         System.out.println("Done!");
         System.out.println();
